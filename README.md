@@ -1,7 +1,7 @@
 # Distributed Key-VaLue Database using Raft algorithm - RaftDB
 
 
-<img src="https://d3i71xaburhd42.cloudfront.net/3665b13932eea50cf9ef5d32b85efc8a06a92b79/16-Figure2.1-1.png"/>
+<img src="https://ariskk.com/static/e332d369be6f66aae7e3da60c0e07eb1/18e3b/raft-arch-2.jpg"/>
 
 
 ## About this project
