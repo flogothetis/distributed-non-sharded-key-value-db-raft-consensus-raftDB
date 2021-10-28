@@ -1,6 +1,8 @@
 # Distributed Key-VaLue Database using Raft algorithm - RaftDB
-[![Raft](
-https://d3i71xaburhd42.cloudfront.net/3665b13932eea50cf9ef5d32b85efc8a06a92b79/16-Figure2.1-1.png)]
+
+
+<img src="https://d3i71xaburhd42.cloudfront.net/3665b13932eea50cf9ef5d32b85efc8a06a92b79/16-Figure2.1-1.png"/>
+
 
 ## About this project
 In this proejct a Key-Value distributed database like Redis, Voldermort and DynamoDB was implemented in Go. There is no doubt that scalability and availability is the major concern when a modern system is designed. The ability to scale up and down according to business needs and demands is the most crucial part of a scalable application. In this project we have developed and realiable and scalable key-value database using Raft consensus algorithm. The project was implemented according to [Raft extended paper](https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14). Since it is not common to have a great number of servers to implement such distributed algorithms, we borowed the network simulator created by MIT to simulate unstable network and servers. We used the [MIT's lab code](https://pdos.csail.mit.edu/6.824/) as base and we coded  the Raft's actual algorithm. 
