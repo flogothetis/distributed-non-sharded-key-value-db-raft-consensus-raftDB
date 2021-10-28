@@ -20,7 +20,7 @@ In this proejct a Key-Value distributed database like Redis, Voldermort and Dyna
 ## Raft DB overview
 ![Raft overview](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2FARC%253A-Analysis-of-Raft-Consensus-Howard%2F3665b13932eea50cf9ef5d32b85efc8a06a92b79&psig=AOvVaw0RskMkPB_MILIJOkWxUg1a&ust=1635538605807000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIj8iqb27fMCFQAAAAAdAAAAABAd)
 
-## Run RaftDB
-```
-
+## Run RaftDB via unittests
+```cd kvraft
+go test
 ```
