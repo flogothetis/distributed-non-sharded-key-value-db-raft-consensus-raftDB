@@ -1,7 +1,7 @@
 # Distributed Key-VaLue Database using Raft algorithm - RaftDB
 
 
-<img src="https://d3i71xaburhd42.cloudfront.net/3665b13932eea50cf9ef5d32b85efc8a06a92b79/16-Figure2.1-1.png"/>
+<img src="https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080"/>
 
 
 ## About this project
