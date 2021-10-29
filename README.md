@@ -16,11 +16,10 @@ In this project a Key-Value distributed database like Redis, Voldermort and Dyna
   Raft is a consensus algorithm designed as an alternative to the Paxos family of algorithms. It was meant to be more understandable than Paxos by means of separation of logic, but it is also formally proven safe and offers some additional features. Raft offers a generic way to distribute a state machine across a cluster of computing systems, ensuring that each node in the cluster agrees upon the same series of state transitions. It has a number of open-source reference implementations, with full-specification implementations in Go, C++, Java, and Scala. It is named after Reliable, Replicated, Redundant, And Fault-Tolerant. Raft is not a Byzantine fault tolerant algorithm: the nodes trust the elected leader.
 
 
-## Raft DB overview
-![Raft overview](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2FARC%253A-Analysis-of-Raft-Consensus-Howard%2F3665b13932eea50cf9ef5d32b85efc8a06a92b79&psig=AOvVaw0RskMkPB_MILIJOkWxUg1a&ust=1635538605807000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIj8iqb27fMCFQAAAAAdAAAAABAd)
-
 ## Run RaftDB via unittests
 ```bat
 cd kvraft
 go test
 ```
+## Future Work
+Implementation of the sharded version of the RaftDB.
