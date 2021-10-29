@@ -5,12 +5,11 @@
 
 
 ## About this project
-In this proejct a Key-Value distributed database like Redis, Voldermort and DynamoDB was implemented in Go. There is no doubt that scalability and availability is the major concern when a modern system is designed. The ability to scale up and down according to business needs and demands is the most crucial part of nowadays applications. In this project we have developed a realiable and scalable key-value database using Raft consensus algorithm. The project was implemented according to [Raft extended paper](https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14). Since it is not common to have enough servers to implement such distributed algorithms, we borowed the network simulator, created by MIT, to simulate unstable network and servers. We used the [MIT's lab code](https://pdos.csail.mit.edu/6.824/) as base and we coded up the Raft's actual algorithm. 
-
+In this project a Key-Value distributed database like Redis, Voldermort and DynamoDB was implemented in Go. There is no doubt that fault-tolerance and availability are the major concerns when a modern system is designed. The ability to keep your business 24/7 available when it is scaled up is the most crucial part of nowadays applications. In this project we have developed a reliable and fault-tolerant key-value database using Raft consensus algorithm. The project was implemented according to [Raft extended paper](https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14). Since we don't have enough servers to implement such distributed algorithms, we borowed the network simulator, created by MIT, to simulate unstable network and servers. We used the [MIT's lab code](https://pdos.csail.mit.edu/6.824/) as code base and we implemented on top that the Raft algorithm.
 
 ## What RaftDB can do ?
 - Append/Put Key-Value pairs
-- Get Values by Key
+- Get Value by Key
 - Guarantees scalability, availaiblity, fault-tolerance when the minority of replica servers are down.
 
 ## About Raft algorithm 
